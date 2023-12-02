@@ -1,6 +1,6 @@
 import readAndCreateArray from '../utils/read-file';
 
-const data = readAndCreateArray('day-1/data.txt');
+const dataPath = readAndCreateArray('day-1/data.txt');
 
 function sumCalibrationValues(calibrationDocument: string[]): number {
   let totalSum = 0;
@@ -34,4 +34,4 @@ function sumCalibrationValues(calibrationDocument: string[]): number {
   return totalSum;
 }
 
-export default sumCalibrationValues(data);
+export default sumCalibrationValues(dataPath);
