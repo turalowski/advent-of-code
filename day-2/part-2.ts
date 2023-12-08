@@ -1,13 +1,6 @@
 import readAndCreateArray from '../utils/read-file';
 const data = readAndCreateArray('day-2/data.txt');
 
-interface CubeCounts {
-  red: number;
-  green: number;
-  blue: number;
-  [key: string]: number; // Add index signature
-}
-
 function powerOfCubes(game: string[][]): number {
   const minCubes: { [key: string]: number } = {
     green: 0,
