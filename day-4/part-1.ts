@@ -10,7 +10,6 @@ function calculatePoints(scratchcards: string[]): number {
       .split(':')[1]
       .split('|')
       .map(str => str.trim().replace(/ {2}/g, ' ').split(' ').map(Number));
-    console.log('yourNumbers', yourNumbers);
     let points = 0;
 
     for (const number of yourNumbers) {

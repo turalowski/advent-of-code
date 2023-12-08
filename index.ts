@@ -3,6 +3,7 @@ import day1_part2 from './day-1/part-2';
 import day_2_part_1 from './day-2/part-1';
 import day_2_part_2 from './day-2/part-2';
 import day_4_part_1 from './day-4/part-1';
+import day_4_part_2 from './day-4/part-2';
 
 console.log('Answers:');
 console.log(`----------------`);
@@ -19,3 +20,4 @@ console.log(`----------------`);
 console.log('Day 4');
 console.log(`----------------`);
 console.log(`Part 1 | ${day_4_part_1}`);
+console.log(`Part 2 | ${day_4_part_2}`);
